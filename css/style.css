@@ -1,0 +1,292 @@
+/*css start */
+
+button,
+body {
+	font-family: Helvetica, Arial, freesana, sans-serif;;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+p{
+	font-size:14px;
+	line-height: 26px;
+}
+
+.fullContainer{
+	width: 100%;
+
+}
+.container{
+	width: 1210px;
+	margin: auto;
+	height:100%;
+}
+.sectionTitle{
+	width:400px;
+	text-align: center;
+	font-size:2rem;
+	font-weight: 200;
+	margin:0 auto 50px;
+	position: relative;
+	padding: 10px 0;
+	text-transform: uppercase;
+}
+
+
+   section{
+	 padding: 100px 0;
+	 position:relative;
+
+      } 
+.para{
+	text-align:center:
+}	  
+	  
+/* Css style end*/
+
+/* Home style strat*/
+
+header{
+	width: 100%;
+	background-color: rgba(0,0,0,0.6);
+	position: fixed;
+	z-index: 2;
+	
+}
+header .container {
+	display: flex;
+	justify-content: space-between;
+}
+header .container .logo{
+	padding: 15px 0;
+	height: 75px; 
+}
+header .container  .logo img {
+	height: 100%;
+}
+header nav ul {
+	list-style-type: none;
+}
+header nav ul li {
+	display: inline-block;
+	
+}
+header nav ul li a{
+	display: inline-block;
+	height: 75px;
+	line-height: 75px;
+	padding: 0 15px;
+	text-decoration: none;
+	text-transform: capitalize;
+	font-size: 16px;
+    color: #fff;
+    transition: 0.3s;
+}
+header nav ul li a:hover {
+	background-color:  #ff726f;
+}
+
+.banner {
+	   min-height: 100vh;
+	   width: 100%;
+	   background-image: url("../images/banner.jpg");
+	   background-size: cover;
+	   background-attachment: fixed;
+}
+.banner h1{
+	margin-top:160px;
+	display: inline-block;
+	font-size: 4rem;
+	color: #fff;
+	text-shadow: 0 0 2px #000;
+	width:50%;
+	line-height: 4.2rem;
+	font-weight: 150;
+	
+}
+.banner h1 span {
+	background-color: #E55451;
+	display: inline-block;
+	line-height: 3.5rem;
+	padding: 0 15px;
+	font-weight:600;
+	border-radius: 5px;
+}
+.banner p{
+	color: #fff;
+	width: 50%;
+	text-shadow: 0 0 2px #000;
+	margin-top: 10px;
+}
+
+ /*home stylinh end*/
+ /*our activity stle start */
+ 
+ #ouractivity .cards {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-top: 50px;
+	position: relative;
+	height:245px;
+	margin-bottom:80px;
+	font-family: sans-serif;
+
+ }
+ #ouractivity .cards >div{
+	 width:350px;
+     background-color: silver;
+     padding: 35px;
+     color:#444;
+     text-align: center;
+     border-radius:5px;
+     height: 350px;
+     border: 1px solid #ccc;
+ }
+ #ouractivity .cards > div p {
+	 font-size: 14px;
+	 margin-top: 15px;
+	 
+ }
+	 
+#ouractivity .cards > div button {
+		 border: 2px solid gray;
+		 outline: none;
+		 padding:7px 15px;
+		 margin-top: 15px;
+		 font-size: 12px;
+		 border-radius: 3px;
+		 cursor: pointer;
+		 transition: 0.3%;
+	 }
+	 
+#ouractivity .cards > div:hover button{
+		 background-color: #E55451;
+		 color:#fff;
+	 }
+	 
+	 
+	 /* our activity end here */
+	 /* our cause section start*/
+		
+	 
+	 .Causes {
+		 background-color: #e2e2e2;
+		
+	 }
+	 
+	 .Causes  .boxContainer {
+		 display: grid;
+		 grid-template-columns: repeat(3, 1fr);
+		 grid-gap: 50px;
+		 
+		 
+	 }
+	 
+	 .Causes .boxContainer .box {
+		 background-color: #fff;
+		 text-align:center;
+		 padding-bottom: 25px;
+		 border-radius:5px;
+		 box-shadow: 0 0 3px 0 #c5c5c5;
+		 position:relative;
+		 margin-bottom: 20px;
+		 margin-left:15px;
+		 margin-right:15px;
+	
+	 }
+	 .Causes .boxContainer .box .cardimage{
+		 width: 100%;
+		 height:300px;
+		 background-position: center;
+		 background-size:cover;
+		 position:relative;
+		 overflow:hidden;
+		 border-radius: 5px 5px 0 0;
+		}
+	.Causes .boxContainer .box .cardimage:after {
+		width: 100%;
+		height: 100%;
+		background-position:center;
+		background-size: cover;
+		content: "";
+		position: absolute;
+		left: 0;
+		top: 0;
+	
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+.Causes .boxContainer .box:nth-child(1) .cardimage,		
+.Causes .boxContainer .box:nth-child(1) .cardimage:after {
+	background-image:url("../images/programs/1.jpg");
+}
+.Causes .boxContainer .box:nth-child(2) .cardimage,		
+.Causes .boxContainer .box:nth-child(2) .cardimage:after {
+	background-image:url("../images/programs/2.jpg");
+}
+.Causes .boxContainer .box:nth-child(3) .cardimage,		
+.Causes .boxContainer .box:nth-child(3) .cardimage:after {
+	background-image:url("../images/programs/3.jpg");
+}
+ /*causesection end here */
+ 
+ .eventpic .eventpiccontainer  {
+	column-count:3;
+    column-gap: 15px;	 
+ }
+ 
+.eventpic .eventpiccontainer  .item{
+	position: relative;
+	margin-bottom:10px;
+	overflow:hidden;
+ }
+.eventpic .eventpiccontainer  img{
+	width:100%;
+	display:block:
+}
+.eventpic .eventpiccontainer .item:hover  img{
+	transform: scale(1.2);
+	
+}
+.contact .foot {
+	text-align:center;
+	font:sans-serif;
+}
+.contact .foot .socials  img{
+	position:relative;
+}
+
+#ourcausessection .boxContainer > div button {
+		 border: 2px solid gray;
+		 outline: none;
+		 padding:7px 15px;
+		 margin-top: 15px;
+		 font-size: 12px;
+		 border-radius: 3px;
+		 cursor: pointer;
+		 transition: 0.3%;
+	 }
+	 
+#ourcausessection .boxContainer > div:hover button{
+		 background-color: #E55451;
+		 color: #fff;
+}
